@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Split Page</title>
+  </head>
+  <body class="body">
+     <div class="container">
+
+      <div class="left-split left-hover">
+        <form action="/">
+          <h1>Sign In</h1>
+          <label for="name">
+            <input type="text" placeholder="Enter Your Name" required />
+          </label>
+          <label for="email">
+            <input
+              type="email"
+              name="emal"
+              id="email"
+              required
+              placeholder="Enter your Email"
+            />
+          </label>
+  
+          <label for="new-pass">
+            <input
+              type="password"
+              name="new-pass"
+              id="new-pass"
+              placeholder="Create New Password"
+            />
+          </label>
+  
+          <label for="confirm-pass">
+            <input
+              type="password"
+              name="confirm-pass"
+              id="confirm-pass"
+              placeholder="Confirm Password"
+            />
+          </label>
+  
+          <div class="btn">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+          
+      <div class="right-split right-hover">
+  
+          <form action="/">
+              <h1>Login </h1>
+              <label for="email">
+                <input
+                  type="email"
+                  name="emal"
+                  id="email2"
+                  required
+                  placeholder="Enter your Email"
+                />
+              </label>
+      
+              <label for="confirm-pass">
+                <input
+                  type="password"
+                  name="pass"
+                  id="pass"
+                  placeholder="Password"
+                />
+              </label>
+      
+              <div class="btn">
+                <button type="submit" class="login-btn">Log In</button>
+              </div>
+            </form>
+  
+      </div>
+
+     </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
